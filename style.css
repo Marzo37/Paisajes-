@@ -1,0 +1,159 @@
+body {
+  background-color: #0d192b;
+}
+
+.Marco{
+  display: inline-block;
+  width: 1000px;
+  height: 1000px;
+  background-color: #0c5149;
+  margin: auto
+}
+.bosque{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background-image: red;
+  color: white;
+  background-image: url(/workspaces/Paisajes-/e6f8321c13bc2d16747185a4faf006d0.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.playa{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background-image: url(/workspaces/Paisajes-/9e86b83b9aa80b9fed2ae1597d00cf60.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+}
+.desierto{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color: white;
+  background-image: url(/workspaces/Paisajes-/d8f8ff1a3ca6129d59bfcd4ea2e38b51.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.arbol{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color: white;
+  background-image: url(/workspaces/Paisajes-/8b7a655cfeaf0ccce128e4173625e239.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.luna{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color: white;
+  background-image: url(/workspaces/Paisajes-/d8f8ff1a3ca6129d59bfcd4ea2e38b51.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.noche{
+  display: inline-block;
+  margin: 40px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color: white;
+  background-image: url(/workspaces/Paisajes-/2a52a39806e84a502db951cf9e0488d5.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+h4 {
+  font-family: Times;
+  font-size: 40px;
+  background: linear-gradient(to top, #000, transparent);
+  text-align: left;
+  border-radius: 10px;
+  padding: 150px 150px 0 0;
+  
+}
+
+.bosque,.playa{
+  margin: 40px
+}
+.arbol,.luna{
+  margin: 40px
+}
+.desierto{
+  margin: 40px
+}
+.bosque,.playa,.desierto,.luna,.arbol,.noche{
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px black
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+  font-family: Times;
+  margin: auto;
+  color: #07f9a2
+}
+
+.nombre{
+  height: 50px;
+  width: 90%;
+  margin: 10px 10px 30px 40px;
+  font-size: 40px;
+  color: #0d192b;
+  background-color:transparent;
+  border: none;
+  border-left: 10px solid #0a8967;
+  border-bottom: 2px solid #0d192b
+}
+
+input{
+  height: 50px;
+  margin: 10px 10px 30px 40px;
+  font-size: 40px;
+  color: #0d192b;
+  background-color:transparent;
+  border: none;
+  border-left: 10px solid #0a8967;
+  border-bottom: 2px solid #0d192b
+}
+.foto{
+  background-image: url(/workspaces/Paisajes-/IMG-20250408-WA0001.jpg);
+  width: 1000px;
+  height: 200px;
+  background-attachment:fixed
+}
+textarea{
+  width: 1000px;
+  min-height: 1000px;
+  max-height: 1000px;
+  background-color: #0a8967;
+  font-size: 40px;
+  text-align: justify;
+  color:#0d192b;
+  font-family: Cursive;
+}
+.boton{
+  background-color: #07f9a2;
+  color:#0d192b;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+  height: 60px;
+  display: inline-block;
+}
